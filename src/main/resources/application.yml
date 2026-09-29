@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: busCrawler
+  profiles:
+    active: dev
+server:
+  port: 4399
+  servlet:
+    context-path: /busCrawler
+    register-default-servlet: true
