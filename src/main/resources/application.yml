@@ -4,7 +4,7 @@ spring:
   profiles:
     active: dev
 server:
-  port: 4399
+  port: 11451
   servlet:
     context-path: /busCrawler
     register-default-servlet: true
